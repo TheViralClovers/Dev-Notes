@@ -1,4 +1,4 @@
-# Understanding Requests
+# 04.Understanding Requests
 
 We can understand the req incoming to the server by logging it to the console
 
@@ -16,7 +16,7 @@ Here we log 3 parts of the req object to the console
 
 **headers** : Other parameters that are passed to indicate the type of content being sent 
 
-![Untitled](Understanding%20Requests%206f4786ecefce4fc2b7755b585df8e9e5/Untitled.png)
+![Untitled](04%20Understanding%20Requests%206f4786ecefce4fc2b7755b585df8e9e5/Untitled.png)
 
 / → url
 

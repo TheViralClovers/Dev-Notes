@@ -1,4 +1,4 @@
-# Redirecting Requests
+# 07.Redirecting Requests
 
 Here we redirect a user from one URL to another
 
@@ -46,4 +46,4 @@ We use `302` to indicate redirection, and we set the header to the place we want
   }
 ```
 
-[app.js](Redirecting%20Requests%207f0cf4059cf9424492260571b635d8ad/app%20js%2090f524625d6747fc8218624762446f2e.md)
+[app.js](07%20Redirecting%20Requests%207f0cf4059cf9424492260571b635d8ad/app%20js%2090f524625d6747fc8218624762446f2e.md)

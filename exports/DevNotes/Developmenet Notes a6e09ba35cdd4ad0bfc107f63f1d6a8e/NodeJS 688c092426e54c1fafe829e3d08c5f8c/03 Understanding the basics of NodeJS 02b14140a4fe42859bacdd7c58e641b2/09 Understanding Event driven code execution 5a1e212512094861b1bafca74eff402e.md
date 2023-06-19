@@ -1,4 +1,4 @@
-# Understanding Event driven code execution
+# 09.Understanding Event driven code execution
 
 We need to know that even listeners such as `req.on('end')` won’t block the execution of the code, it instead lets the remaining code below it to execute, the compiler will internally set a process to wait for the chunks to come through from `req.on('end')` while the rest of the code is getting executed
 
@@ -45,3 +45,5 @@ Will setup a listener, and wait till all the chunk come through before execution
 ```
 
 This starts getting executed while `res.on('end')` is waiting
+
+This is done so that requests don’t take forever to process and instead runs parallely

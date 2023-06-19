@@ -1,6 +1,6 @@
-# NodeJS program lifecycle
+# 03.NodeJS program lifecycle
 
-![Untitled](NodeJS%20program%20lifecycle%20ff86bbd046f7438e9195cf1644bfcf05/Untitled.png)
+![Untitled](03%20NodeJS%20program%20lifecycle%20ff86bbd046f7438e9195cf1644bfcf05/Untitled.png)
 
 Once we run the command `node app.js` in our terminal , the script is started, which parses code, registers variables and fucntions.
 
