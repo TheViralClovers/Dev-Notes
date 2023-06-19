@@ -1,0 +1,23 @@
+{
+  "name": "notion-backup",
+  "version": "1.0.0",
+  "description": "Export Notion pages and subpages to a GitHub repo on a schedule",
+  "main": "index.js",
+  "type": "module",
+  "contributors": [
+    "Richard Keil",
+    "Karl Horky <karl.horky@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.4.0",
+    "extract-zip": "2.0.1",
+    "p-map": "6.0.0",
+    "tsx": "3.12.7"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.7.2",
+    "eslint-config-upleveled": "4.6.0",
+    "typescript": "5.1.3"
+  }
+}
