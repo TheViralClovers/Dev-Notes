@@ -12,15 +12,15 @@ const blocks = [
     //    and separate it with dashes in the same format as below
     //    (number of characters between dashes: 8-4-4-4-12)
     // 2. Inspecting network requests in the DevTools
-    id: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+    id: 'a6e09ba3-5cdd-4ad0-bfc1-07f63f1d6a8e',
     // Find the space ID associated with a block by running this in the DevTools
     // Console while on the page you want to export:
     // $('img[src*="spaceId="]').src.replace(/^.+&spaceId=([^&]+)&.+$/, '$1')
     spaceId: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
     // Choose a directory name for your export to appear in the `exports` folder
-    dirName: 'notion-page-a',
+    dirName: 'DevNotes',
     // Should all of the subpages also be exported?
-    recursive: false,
+    recursive: true,
   },
 ];
 
