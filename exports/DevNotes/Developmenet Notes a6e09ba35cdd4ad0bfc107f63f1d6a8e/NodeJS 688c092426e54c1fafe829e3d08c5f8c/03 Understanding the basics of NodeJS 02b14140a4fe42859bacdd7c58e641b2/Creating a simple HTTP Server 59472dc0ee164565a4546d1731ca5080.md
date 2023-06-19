@@ -1,6 +1,6 @@
 # Creating a simple HTTP Server
 
-For this we will be using the http module inside an ‘app.js’ file
+For this we will be using the http module inside an ‘app.js’ file, use `node app.js` to run the server in the terminal
 
 First we import the module
 
@@ -41,3 +41,5 @@ Now call the listen() method and pass in the port number(optional) and it will s
 ```jsx
 server.listen(3000)
 ```
+
+visiting [localhost:3000](http://localhost:3000) will log the request to the console
